@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Traffic lights</string>
+    <string name="red">red</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="you_can">You can change the color of the traffic light as you want</string>
+</resources>
