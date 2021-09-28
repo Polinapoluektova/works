@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">CoffeeCounter</string>
+
+    <string name="txt_students">Coffee</string>
+    <string name="btn_students">add coffee</string>
+</resources>
