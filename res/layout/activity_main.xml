@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/grey_blue"
+        android:text="@string/you_can"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/grey_blue"
+
+        android:text="@string/red"
+        android:textColor="@color/red"
+        android:onClick="onMyClick"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/grey_blue"
+
+        android:text="@string/yellow"
+        android:textColor="@color/yellow"
+        android:onClick="onMyClick"/>
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="300dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/grey_blue"
+
+        android:text="@string/green"
+        android:textColor="@color/green"
+        android:onClick="onMyClick"/>
+
+
+</RelativeLayout>
